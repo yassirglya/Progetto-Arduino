@@ -1,0 +1,100 @@
+/* Reset base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;    /* Azzurro chiarissimo */
+  color: #111;            /* Testo quasi nero */
+  line-height: 1.6;
+  padding-bottom: 60px;
+}
+
+/* Header */
+header {
+  background: #005f99;    /* Blu intenso */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.5em;
+  color: #e0f7ff;         /* Azzurro pallido */
+}
+
+/* Navbar */
+nav {
+  background: #007acc;    /* Blu medio */
+  padding: 10px 20px;
+}
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+nav ul li a:hover {
+  color: #ccefff;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Sezioni */
+section {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+section h2 {
+  color: #005f99;        /* Blu intenso */
+  margin-bottom: 10px;
+  border-bottom: 2px solid #99d6ff; /* Azzurro chiaro */
+  padding-bottom: 5px;
+}
+
+/* Testi e liste */
+p, ul, ol {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+ul, ol {
+  margin-left: 20px;
+}
+
+/* Contenitore e immagine */
+.immagine-container {
+  text-align: center;    /* centra il contenuto inline */
+}
+.mia-immagine {
+  max-width: 50%;
+  height: auto;
+}
+
+/* Footer */
+.footer-container {
+  text-align: center;
+  background-color: #005f99;
+  color: #fff;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+
